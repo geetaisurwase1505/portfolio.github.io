@@ -1,0 +1,93 @@
+.navbar {
+    background-color: aquamarine !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.navbar ul li a:hover {
+    color: blue !important;
+    box-shadow: 10px 10px 15px gray;
+}
+
+.navbar-brand {
+    color: blue !important;
+}
+
+.headerleft {
+    /* border: 2px solid crimson; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headeright {
+    /* border: 2px solid cadetblue; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerimg {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.headerightinfo h1 {
+    color: blue;
+}
+
+.headerightinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerightinfo p {
+    color:saddlebrown;
+}
+
+.projectscols {
+    /* border:2px solid red ; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    color: crimson;
+}
+
+.aboutme h1 {
+    color: crimson;
+}
+
+.contactme h1 {
+    color: crimson;
+}
+
+.footers p {
+    /* background-color: aquamarine; */
+}
+
+.project_card:hover {
+    box-shadow: 10px 10px 15px gray;
+    cursor: pointer;
+    margin-top: -2rem;
+    background-color: lightgrey;
+
+}
+
+.heightimg {
+    height: 230px;
+    /* width: 400px; */
+}
+
+.hovpro:hover {
+    color: coral;
+}
