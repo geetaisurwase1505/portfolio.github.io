@@ -3,6 +3,7 @@
     position: fixed;
     width: 100vw;
     z-index: 1000;
+    
 }
 
 .navbar ul li a:hover {
@@ -44,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .headerightinfo p {
@@ -60,15 +61,15 @@
 }
 
 .projects {
-    color: crimson;
+    color:  rgb(200, 213, 9);
 }
 
 .aboutme h1 {
-    color: crimson;
+    color: rgb(200, 213, 9);
 }
 
 .contactme h1 {
-    color: crimson;
+    color:   rgb(200, 213, 9);
 }
 
 .footers p {
